@@ -1,6 +1,13 @@
 
-<header id="masthead" class="site-header" itemtype="https://schema.org/WPHeader" itemscope="">
-	<a class="imglogo" href="/Library/index.php"><img alt="Logo" src="images/header-logo1.png"></a>
+<header  id="masthead" class="site-header" itemtype="https://schema.org/WPHeader" itemscope="" style="margin-top: 10px;">
+	<div>
+	<a class="imglogo" href="/Library/index.php"><img height="100px" width="150px" alt="Logo" src="images/patna_university.png"></a>
+	<a style="margin-left: 50px" class="imglogo" href="/Library/index.php"><img height="100px" width="150px" alt="Logo" src="images/puname-1.png"></a>
+	
+	
+
+	</div>
+	
 	<nav class="navbar navbar-expand-sm  navbar-dark" style="background-color: #e9e7e9">
 		<!-- Brand -->
 <!-- 		<a class="navbar-brand" href="#">HOME</a>

@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
 	<!-- jQuery library -->
@@ -15,9 +16,7 @@
 
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-
-	<link rel="stylesheet" type="text/css" href="../custom.css">
-
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 
 	<title>Patna Library</title>
 </head>
