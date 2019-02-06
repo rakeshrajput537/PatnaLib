@@ -1,12 +1,15 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="b_slider.css">
 	<?php
 	include 'shared/head.php';
+	include 'shared/db.php';
 	?>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
 	<link rel="stylesheet" type="text/css" href="custom.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+	<link rel="stylesheet" type="text/css" href="b_slider.css">
 
 </head>
 <body class="container" style="background-color: #f4f4f4;">
@@ -15,31 +18,37 @@
 	?>
 	 <!-------------Book Slider ---------->
 	<section class="customer-logos slider mt-2 border p-2">
-		<div class="slide">
-			<img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg">
+		<div class="slide gallery">
+			<a href="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg" data-lightbox="mygal">
+			<img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg
+			 "></a>
 		</div>
 		<div class="slide">
-			<img src="http://www.webcoderskull.com/img/logo.png">
+			<a href="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg" data-lightbox="mygal">
+			<img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></a>
 		</div>
 		<div class="slide">
-			<img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg">
+			<a href="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg" data-lightbox="mygal">
+			<img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></a>
 		</div>
 		<div class="slide">
-			<img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg">
+			<a href="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg" data-lightbox="mygal">
+			<img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></a>
 		</div>
 		<div class="slide">
-			<img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg">
-		</div>
-		<div class="slide">
+			<a href="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg" data-lightbox="mygal"></a>
 			<img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg">
 		</div>
 		<div class="slide">
-			<img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg">
+			<a href="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg" data-lightbox="mygal">
+			<img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></a>
 		</div>
 		<div class="slide">
-			<img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg">
+			<a href="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg" data-lightbox="mygal">
+			<img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></a>
 		</div>
 		<div class="slide">
+			<a href="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg" data-lightbox="mygal"></a>
 			<img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg">
 		</div>
 	</section>
@@ -50,28 +59,28 @@
 				<div class="shadow p-3 mb-5 rounded border border-primary">
 					<ul class="list-group py-1"  style="font-family: initial;">
 						<li class="list-group-item py-1">
-							<a style="color: #c20101" href="#">Patna University Home</a>
+							<a style="color: #c20101" href="https://www.patnauniversity.ac.in/" target="_blank">Patna University Home</a>
 						</li>
 						<li class="list-group-item py-1">
-							<a style="color: #c20101" href="#">PU Webmail</a>
+							<a style="color: #c20101" href="http://mail.patnauniversity.ac.in/bizmail/login" target="_blank">PU Webmail</a>
 						</li>
 						<li class="list-group-item py-1">
-							<a style="color: #c20101" href="">Plagiarism Tool: Urkund</a>
+							<a style="color: #c20101" href="https://secure.urkund.com/account/en-US/auth/login" target="_blank">Plagiarism Tool: Urkund</a>
 						</li>
 						<li class="list-group-item py-1">
-							<a style="color: #c20101" href="">Citation Manager</a>
+							<a style="color: #c20101" href="http://www.citationmachine.net/" target="_blank">Citation Manager</a>
 						</li>
 						<li class="list-group-item py-1">
 							<a style="color: #c20101" href="">E-Resources</a>
 						</li>
 						<li class="list-group-item py-1">
-							<a style="color: #c20101" href="">E-ShodhSindhu</a>
+							<a style="color: #c20101" href="https://www.inflibnet.ac.in/ess/eres.php?memID=34" target="_blank">E-ShodhSindhu</a>
 						</li>
 						<li class="list-group-item py-1">
-							<a style="color: #c20101" href="">DelCON</a>
+							<a style="color: #c20101" href="http://delcon.gov.in/eresources.php" target="_blank">DelCON</a>
 						</li>
 						<li class="list-group-item py-1">
-							<a style="color: #c20101" href="">DELNET</a>
+							<a style="color: #c20101" href="http://164.100.247.30/" target="_blank">DELNET</a>
 						</li>
 						<li class="list-group-item py-1">
 							<a style="color: #c20101" href="">Open Access </a>
@@ -86,7 +95,7 @@
 							<a style="color: #c20101" href="">Ask Librarian</a>
 						</li>
 						<li class="list-group-item py-1">
-							<a style="color: #c20101" href="">Feedbaack Form</a>
+							<a href="#" style="color: #c20101">Feedbaack Form</a>
 						</li>
 						<li class="list-group-item py-1">
 							<a style="color: #c20101" href="">Online User Registration</a>
@@ -99,23 +108,23 @@
 					<h5 class="text-center text-info">Library videos Gallery</h5>
 					<!-- Button trigger modal -->
                     <a href="#">
-					<img src="images/first.png" class="img-fluid" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-					  Patna University video
+					<img src="images/vthm.jpg" class="img-fluid" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
 					</a>
+					<h6 class="text-center mt-2">Library Management</h6>
 
 					<!-- Modal -->
 					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">
 								<div class="modal-header">
-									<h5 class="modal-title" id="exampleModalLabel">Patna University Video</h5>
+									<h5 class="modal-title" id="exampleModalLabel">Library Management</h5>
 									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 										<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
 								<div class="modal-body">
 									<div class="embed-responsive embed-responsive-16by9">
-										<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+										<iframe width="560" height="315" src="https://www.youtube.com/embed/Olbps-v48-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 									</div>
 								</div>
 								<div class="modal-footer">
@@ -137,21 +146,21 @@
 					</ol>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<a href="#"><img class="d-block w-100" src="images/first.png" alt="First slide"></a>
+							<a href="#"><img class="d-block w-100" src="images/puslide1.jpg" alt="First slide"></a>
 							<div class="carousel-caption d-none d-md-block">
-								<h5>First Slide Label</h5>
-								<p>This is the first slide label</p>
+								<h5 style="color: yellow">Patna University Library</h5>
+								
 							</div>
 						</div>
 						<div class="carousel-item">
-							<a href="#"><img class="d-block w-100" src="images/second.png" alt="Second slide"></a>
+							<a href="#"><img class="d-block w-100" src="images/puslide1.jpg" alt="Second slide"></a>
 							<div class="carousel-caption d-none d-md-block">
 								<h5>Second Slide Label</h5>
-								<p>This is the second slide label</p>
+								
 							</div>
 						</div>
 						<div class="carousel-item">
-							<a href="#"><img class="d-block w-100" src="images/third.png" alt="Third slide"></a>
+							<a href="#"><img class="d-block w-100" src="images/puslide1.jpg" alt="Third slide"></a>
 							<div class="carousel-caption d-none d-md-block">
 								<h5>Third Slide Label</h5>
 								<p>This is the third slide label</p>
@@ -186,17 +195,21 @@
 
 				  <!-- Tab panes -->
 				 <div class="tab-content">
-				    <div id="Announcement" class="container tab-pane active"><br>
-				    	<div class="border p-1" >
+				    <div id="Announcement" class="container tab-pane active" style="height: 400px"><br>
+				    	<div class="border p-1" style="overflow:scroll;height:335px;margin-bottom: 5px">
 				    		<h6 class="text-center p-2 text-warning" style="background-color: #008700">Announcements @ PU Library</h6>
-				    		<a href="#"><p class="border mb-1 border-info pl-1" style="font-size: 14px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodand mai skto srakesf rakehsr  <strong><img src="images/small-blink-red.gif"></strong>
+				    		<?php
+				    		$sql = "select * from announcement";
+				    		$result=$con->query($sql);
+				    		while ($row = mysqli_fetch_assoc($result)) {
+				    			?>
+				    			<a href="<?php echo $row['linkSrc'];?>"><p class="border mb-1 border-info pl-1" style="font-size: 14px"><?php echo $row['linkDesc'];?><strong><img src="images/small-blink-red.gif"></strong>
 				    		</a></p>
-				    		<a href="#"><p class="border mb-1 border-info pl-1" style="font-size: 14px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tur adipisicing elit, sed do eiusmodand mai skto srake <strong><img src="images/small-blink-red.gif"></strong>
-				    		</a></p>
-				    		<a href="#"><p class="border mb-1 border-info pl-1" style="font-size: 14px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tur adipisicing elit, sed do eiusmodand mai skto srake <strong><img src="images/small-blink-red.gif"></strong>
-				    		</a></p>
-				    		<a href="#"><p class="border mb-1 border-info pl-1" style="font-size: 14px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tur adipisicing elit, sed do eiusmodand mai skto srake  <strong><img src="images/small-blink-red.gif"></strong>
-				    		</a></p>
+				    		<?php
+				    		}
+				    		?>
+				    		
+				 
 				    	</div>
 				    </div>
 				    <div id="Faculty-p" class="container tab-pane fade"><br>
@@ -217,46 +230,27 @@
 				<div class="shadow mb-4 bg-white rounded mr-1 mt-3 border border-primary">
 					<h5 class="text-center text-info p-2 border-bottom border-primary"" style="background-color: #e9e7e9;padding-bottom:5px;font-family: initial;">News & Event
 					</h5>
-					<marquee  direction="up" class="pl-3" onmouseover="this.stop();" onmouseout="this.start()" style="max-height: 300px">
-						<a class="py-4" href="#">Link:</a>
-						<p class="">this is sis and man...ggjghghg wriewhriweriweirwhrhwe</p>
-						<a class="py-4" href="#">Link:</a>
-						<p class="text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						<a class="py-4" href="#">Link:</a>
-						<p class="text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						<a class="py-4" href="#">Link:</a>
-						<p class="text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officiadeserunt mollit anim id est laborum.
-					    </p>
-					    <a class="py-4" href="#">Link:</a>
-						<p class="text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officiadeserunt mollit anim id est laborum.
-					    </p>			
+					<marquee  direction="up" class="pl-3" onmouseover="this.stop();" onmouseout="this.start()" style="height: 300px">
+						<?php 
+							$sql = "select * from news";
+							$result = $con->query($sql);
+							while ($row = mysqli_fetch_assoc($result)) {
+								?>
+								
+			            <a class="py-4" href="<?php echo $row['linkSrc'];?>" target="_blank"><?php echo $row['linkTitle'];?>:</a>
+						<p class=""><?php echo $row['linkDescription'];?></p>
+			
+								<?php
+							}
+						?>
+						
 					</marquee>
 				</div>
 				<div class="shadow mb-1 bg-white rounded mr-2 border border-primary">
 					<h5 class="text-center text-info p-2 border-bottom border-primary" style="background-color:#e9e7e9; font-family: initial; ">Digital Library @ PU
 					</h5>
 					<ul type="square">
-						<li><a href="#" >link</a></li>
+						<li><a href="https://ndl.iitkgp.ac.in/" >link</a></li>
 						<li><a href="#" >link</a></li>
 						<li><a href="#" >link</a></li>
 						<li><a href="#" >link</a></li>
@@ -273,7 +267,10 @@
 			</div>
 		</div>
 	</main>
-
- 	<script type="text/javascript" src="b_slider.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>	
+<script type="text/javascript" src="slick.js"></script>
+ <script type="text/javascript" src="b_slider.js"></script>
 </body> 
 </html>

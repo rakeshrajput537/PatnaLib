@@ -12,3 +12,10 @@
 a{
 	color: #6534c5;
 }
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}

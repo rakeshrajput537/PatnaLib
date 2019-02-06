@@ -3,10 +3,9 @@
 	<div>
 	<a class="imglogo" href="/Library/index.php"><img height="100px" width="150px" alt="Logo" src="images/patna_university.png"></a>
 	<a style="margin-left: 50px" class="imglogo" href="/Library/index.php"><img height="100px" width="150px" alt="Logo" src="images/puname-1.png"></a>
-	
-	
-
+	<img src="images/puh.jpg " class="float-right" height="120px" width="600px">
 	</div>
+	<br>
 	
 	<nav class="navbar navbar-expand-lg  navbar-dark mt-2" style="background-color: #d40000;font-family: initial;">
 		<!-- Brand -->
@@ -26,16 +25,12 @@
 					About Us
 				</a>
 				<div class="dropdown-menu ml-1" style="background-color: #e9e7e9">
-					<a class="dropdown-item" href="#">Link 1</a>
-					<a class="dropdown-item" href="#">Link 2</a>
-					<a class="dropdown-item" href="#">Link 3</a>
-					<a class="dropdown-item" href="#">Link 3</a>
-					<a class="dropdown-item" href="#">Link 3</a>
-					<a class="dropdown-item" href="#">Link 3</a>
-					<a class="dropdown-item" href="#">Link 3</a>
-					<a class="dropdown-item" href="#">Link 3</a>
-					<a class="dropdown-item" href="#">Link 3</a>
-					<a class="dropdown-item" href="#">Link 3</a>
+					<a class="dropdown-item border" href="#">About Library</a>
+					<a class="dropdown-item border" href="#">Vision</a>
+					<a class="dropdown-item border" href="#">Mission</a>
+					<a class="dropdown-item border" href="#">Campus</a>
+					<a class="dropdown-item border" href="#">Library Rules</a>
+					<a class="dropdown-item border" href="#">Library Team</a>
 				</div>
 			</li>
 			<li class="nav-item dropdown ml-1">
@@ -43,18 +38,18 @@
 					Services
 				</a>
 				<div class="dropdown-menu ml-1" style="background-color: #e9e7e9">
-					<a class="dropdown-item" href="#">Link 1</a>
-					<a class="dropdown-item" href="#">Link 2</a>
-					<a class="dropdown-item" href="#">Link 3</a>
-					<a class="dropdown-item" href="#">Link 1</a>
-					<a class="dropdown-item" href="#">Link 2</a>
-					<a class="dropdown-item" href="#">Link 3</a>
-					<a class="dropdown-item" href="#">Link 1</a>
-					<a class="dropdown-item" href="#">Link 2</a>
-					<a class="dropdown-item" href="#">Link 3</a>
-					<a class="dropdown-item" href="#">Link 1</a>
-					<a class="dropdown-item" href="#">Link 2</a>
-					<a class="dropdown-item" href="#">Link 3</a>
+					<a class="dropdown-item border" href="#">Link 1</a>
+					<a class="dropdown-item border" href="#">Link 2</a>
+					<a class="dropdown-item border" href="#">Link 3</a>
+					<a class="dropdown-item border" href="#">Link 1</a>
+					<a class="dropdown-item border" href="#">Link 2</a>
+					<a class="dropdown-item border" href="#">Link 3</a>
+					<a class="dropdown-item border" href="#">Link 1</a>
+					<a class="dropdown-item border" href="#">Link 2</a>
+					<a class="dropdown-item border" href="#">Link 3</a>
+					<a class="dropdown-item border" href="#">Link 1</a>
+					<a class="dropdown-item border" href="#">Link 2</a>
+					<a class="dropdown-item border" href="#">Link 3</a>
 				</div>
 			</li>
 			<li class="nav-item dropdown ml-1">
@@ -62,10 +57,10 @@
 					Resources
 				</a>
 				<div class="dropdown-menu ml-1" style="background-color: #e9e7e9">
-					<a class="dropdown-item" href="#">Link 1</a>
-					<a class="dropdown-item" href="#">Link 2</a>
-					<a class="dropdown-item" href="#">Link 3</a>
-					<a class="dropdown-item" href="#">Link 1</a>
+					<a class="dropdown-item border" href="#">Link 1</a>
+					<a class="dropdown-item border" href="#">Link 2</a>
+					<a class="dropdown-item border" href="#">Link 3</a>
+					<a class="dropdown-item border" href="#">Link 1</a>
 				</div>
 			</li>
 			<li class="nav-item dropdown ml-1">
@@ -73,9 +68,9 @@
 					WebOPAC
 				</a>
 				<div class="dropdown-menu ml-1" style="background-color: #e9e7e9">
-					<a class="dropdown-item" href="#">Link 1</a>
-					<a class="dropdown-item" href="#">Link 2</a>
-					<a class="dropdown-item" href="#">Link 3</a>
+					<a class="dropdown-item border" href="#">Link 1</a>
+					<a class="dropdown-item border" href="#">Link 2</a>
+					<a class="dropdown-item border" href="#">Link 3</a>
 				</div>
 			</li>
 			<li class="nav-item dropdown ml-1">
@@ -83,8 +78,8 @@
 					Institutional Repository
 				</a>
 				<div class="dropdown-menu ml-1" style="background-color: #e9e7e9">
-					<a class="dropdown-item" href="#">Link 1</a>
-					<a class="dropdown-item" href="#">Link 2</a>
+					<a class="dropdown-item border" href="#">Link 1</a>
+					<a class="dropdown-item border" href="#">Link 2</a>
 				</div>
 			</li>
 			<li class="nav-item dropdown ml-1">
@@ -92,10 +87,10 @@
 					Quick Help
 				</a>
 				<div class="dropdown-menu ml-1" style="background-color: #e9e7e9">
-					<a class="dropdown-item" href="#">Link 1</a>
-					<a class="dropdown-item" href="#">Link 2</a>
-					<a class="dropdown-item" href="#">Link 3</a>
-					<a class="dropdown-item" href="#">Link 3</a>
+					<a class="dropdown-item border" href="#">Link 1</a>
+					<a class="dropdown-item border" href="#">Link 2</a>
+					<a class="dropdown-item border" href="#">Link 3</a>
+					<a class="dropdown-item border" href="#">Link 3</a>
 				</div>
 			</li>
 			<li class="nav-item dropdown ml-1">
@@ -103,9 +98,9 @@
 					Downloads
 				</a>
 				<div class="dropdown-menu ml-1" style="background-color: #e9e7e9">
-					<a class="dropdown-item" href="#">Link 1</a>
-					<a class="dropdown-item" href="#">Link 2</a>
-					<a class="dropdown-item" href="#">Link 3</a>
+					<a class="dropdown-item border" href="#">Link 1</a>
+					<a class="dropdown-item border" href="#">Link 2</a>
+					<a class="dropdown-item border" href="#">Link 3</a>
 				</div>
 			</li>
 			<li class="nav-item" >
